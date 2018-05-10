@@ -54,9 +54,10 @@ echo '#! /bin/bash
 ### END INIT INFO
 
 # /etc/init.d/vpnclient
-ROUTER_IP=192.168.254.1
-SERVER_IP=206.189.34.94
-SERVER_DHCP=192.168.30.1
+# IMPORTANT!!! SET YOUR VARIABLES HERE!
+ROUTER_IP=xx.xx.xx.xx
+SERVER_IP=xx.xx.xx.xx
+SERVER_DHCP=xx.xx.xx.xx
 
 case "$1" in
 
